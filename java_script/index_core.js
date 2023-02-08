@@ -1,3 +1,11 @@
+window.addEventListener('load', function() {
+    setTimeout(() => {
+        document.querySelector('.load-page').removeAttribute('id', 'load-page');
+        document.querySelector('.wrapper').style['display'] = 'flex';
+        document.querySelector('.load-page').style['display'] = 'none';
+    }, 3000);
+});
+
 let money = 150000000000, money_dc = 150000000000;
 
 let counter = ['null', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
